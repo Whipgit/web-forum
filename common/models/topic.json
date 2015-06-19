@@ -1,6 +1,6 @@
 {
   "name": "Topic",
-  "plural": "topics",
+  "plural": "Topics",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

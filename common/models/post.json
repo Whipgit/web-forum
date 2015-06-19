@@ -1,6 +1,6 @@
 {
-  "name": "post",
-  "plural": "posts",
+  "name": "Post",
+  "plural": "Posts",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

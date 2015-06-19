@@ -1,0 +1,41 @@
+{
+  "name": "Person",
+  "plural": "People",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "createdOn": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "posts": {
+      "type": "hasMany",
+      "model": "post",
+      "foreignKey": ""
+    },
+    "topics": {
+      "type": "hasMany",
+      "model": "Topic",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

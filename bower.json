@@ -1,0 +1,21 @@
+{
+  "name": "web-forum",
+  "version": "1.0",
+  "authors": [
+    "Whiplash88 <whiplash174@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "angular": "~1.4.1",
+    "materialize": "~0.96.1"
+  }
+}

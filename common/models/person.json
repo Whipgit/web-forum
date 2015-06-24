@@ -36,6 +36,30 @@
       "foreignKey": ""
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": [
+        "findById",
+        "find",
+        "create",
+        "count",
+        "delete",
+        "deleteById",
+        "destroy",
+        "destroyById",
+        "__get__accessTokens",
+        "__findById__accessTokens",
+        "__delete__accessTokens",
+        "__deleteById__accessTokens",
+        "__destroyById__accessTokens",
+        "update",
+        "updateAttributes",
+        "updateById"
+      ]
+    }
+  ],
   "methods": []
 }
